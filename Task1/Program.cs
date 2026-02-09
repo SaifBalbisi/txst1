@@ -4,8 +4,6 @@
 
 
 
-//
-//
 /*Write a program that takes the bill amount from the user and calculates the final price after 
 applying the discount based on the following conditions: 
 • If the bill amount is 500 or more, apply a 20% discount 
