@@ -13,18 +13,26 @@ Finally, print the final price after the discount.*/
 
 Console.WriteLine("pleas Writ bill amount");
 double  amount = Convert.ToInt32(Console.ReadLine());
-if (amount >= 500)
+ if (amount <0)
+{
+    Console.WriteLine(" not bill amount Erorrrrrr");
+
+    
+}
+else if (amount >= 500)
 {
     Console.WriteLine(" 20% discount ");
 
     amount *= 0.20;
 }
-else if (amount >= 300 && amount < 400)
+else if (amount >= 300 && amount < 499)
 {
     Console.WriteLine(" 10% discount ");
 
     amount *= 0.10;
 }
+
+
 else {
     Console.WriteLine(" no discount is applied ");
 }
